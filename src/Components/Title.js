@@ -6,7 +6,7 @@ const Title = () => {
     
     <div>
         <h1>Title Testing</h1>
-        <img title='AI generated images' src='https://www.freepik.com/free-photo/high-angle-people-applauding-work_31124116.htm#fromView=image_search_similar&page=1&position=0&uuid=a8c42f5e-fe72-4cfd-b5ce-a38c3e6906aa' />
+        <img title='AI generated images' src='https://i.postimg.cc/fRNMZ0YV/Chat-GPT-Image-Aug-17-2025-12-55-10-AM.png' />
     </div>
 
     </>
