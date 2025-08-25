@@ -1,3 +1,4 @@
+import { Input } from './Components/InputBoxTest/Input';
 import Title from './Components/Title';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         </p>
       </header>
       <Title />
+      <Input />
     </div>
   );
 }
