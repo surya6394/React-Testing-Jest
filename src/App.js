@@ -1,3 +1,4 @@
+import Events from './Components/Event/Events';
 import { Input } from './Components/InputBoxTest/Input';
 import Title from './Components/Title';
 
@@ -14,6 +15,7 @@ function App() {
       </header>
       <Title />
       <Input />
+      <Events />
     </div>
   );
 }
