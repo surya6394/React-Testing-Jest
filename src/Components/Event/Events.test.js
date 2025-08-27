@@ -7,3 +7,10 @@ test("Testing onChange Event in input element.", () => {
     fireEvent.change(inputCheck, {target:{value:'abc'}});
     expect(inputCheck.value).toBe("abcSurya");
 })
+
+test("Testing onClick Event on button click.", () => {
+    render(<Events />)
+    let btnClick = screen.getByRole("button");
+    fireEvent.click(btnClick);
+    expect(screen.getByText("The Man is here.")).toBeInTheDocument();
+})
