@@ -3,6 +3,7 @@ import { Input } from './Components/InputBoxTest/Input';
 import Title from './Components/Title';
 import './App.css';
 import { Describe } from './Components/DescribeFunction/Describe';
+import Functional from './Components/FunctionalCompMethodTesting/Functional';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Input />
       <Events />
       <Describe />
+      <Functional />
     </div>
   );
 }

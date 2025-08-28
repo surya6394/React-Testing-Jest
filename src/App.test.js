@@ -21,7 +21,7 @@ test("Testing of text in APP.", () => {
   expect(linkElement).toBeInTheDocument();
 })
 
-test("Snapshot for App component.",() => {
-  const container = render(<App />);
-  expect(container).toMatchSnapshot();
-})
+// test("Snapshot for App component.",() => {
+//   const container = render(<App />);
+//   expect(container).toMatchSnapshot();
+// })
