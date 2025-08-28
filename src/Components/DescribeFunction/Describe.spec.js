@@ -61,3 +61,9 @@ describe.skip("Describe test group - 2", () => {
     })
 
 })
+
+
+test("Snapshot testing for Describe group.", () => {
+    const describe = render(<Describe />);
+    expect(describe).toMatchSnapshot();
+})

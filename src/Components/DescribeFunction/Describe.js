@@ -7,7 +7,7 @@ export function Describe(){
     return (
         <div>
             <h1>
-                We are testing Input Box.
+                We are testing Describe function.
             </h1>
             <input 
             id="input"

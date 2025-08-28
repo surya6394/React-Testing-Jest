@@ -20,3 +20,8 @@ test("Testing of text in APP.", () => {
   const linkElement = screen.getByText(/save to reload/);
   expect(linkElement).toBeInTheDocument();
 })
+
+test("Snapshot for App component.",() => {
+  const container = render(<App />);
+  expect(container).toMatchSnapshot();
+})
