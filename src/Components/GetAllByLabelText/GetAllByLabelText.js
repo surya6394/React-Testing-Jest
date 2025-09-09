@@ -4,7 +4,7 @@ export default function GetAllByLabelText(){
         <>
         
             <div>
-                <h1>Testing for All label present in the document - getAllByLabelText()</h1>
+                <h1>Testing for All label present in the document</h1>
                 <div>
                     <label htmlFor="username1">UserName</label>
                     <input name="username1" id="username1" />
