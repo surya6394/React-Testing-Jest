@@ -7,5 +7,6 @@ test("Testing placeholder in all input box", () => {
     const inputbox = screen.getAllByPlaceholderText('Enter your name');
     for (let i = 0; i < inputbox.length; i++) {
         expect(inputbox[i]).toBeInTheDocument();
+        expect(inputbox[i]).toHaveValue('surya');
     }
 })
